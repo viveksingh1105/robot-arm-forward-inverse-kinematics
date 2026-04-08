@@ -58,8 +58,11 @@ Forward kinematics computes the end-effector pose from known joint parameters.
 In this project:
 
 • joint variables are provided as system inputs
+
 • transformation matrices describe link relationships
+
 • end-effector coordinates are obtained through matrix multiplication
+
 • simulation verifies the correctness of workspace motion
 
 The forward kinematics model is implemented using Simulink blocks representing the transformation pipeline.
@@ -73,7 +76,9 @@ Inverse kinematics computes required joint parameters for a desired end-effector
 The inverse kinematics model:
 
 • accepts target end-effector coordinates
+
 • estimates corresponding joint configurations
+
 • verifies solutions through simulation
 
 This demonstrates how robotic manipulators can be controlled to reach desired spatial positions.
@@ -93,8 +98,11 @@ This comparison verifies consistency between the two modeling approaches.
 ## Tools Used
 
 MATLAB
+
 Simulink
+
 Homogeneous Transformation Matrices
+
 Robotic Manipulator Kinematics
 
 ---
@@ -104,8 +112,11 @@ Robotic Manipulator Kinematics
 My contributions to this group project included:
 
 • development and validation of kinematic modeling components
+
 • implementation and testing within the MATLAB/Simulink environment
+
 • analytical verification using transformation matrices
+
 • supporting simulation workflow preparation
 
 ---
@@ -115,9 +126,13 @@ My contributions to this group project included:
 This project strengthened practical understanding of:
 
 • coordinate frame transformations
+
 • robotic manipulator modeling
+
 • forward kinematics
+
 • inverse kinematics
+
 • simulation-based validation in MATLAB/Simulink
 
 These techniques are widely used in robotics, automation systems, and industrial manipulators.
@@ -126,6 +141,9 @@ These techniques are widely used in robotics, automation systems, and industrial
 
 ## Author
 
+
 Vivek Singh
+
 M.Sc. Automation and Control Engineering
+
 RPTU Kaiserslautern-Landau
